@@ -136,7 +136,7 @@ $modules: () !default;
 
 
 @function em-calc($values, $base-value: $rem-base) {
-  $remValues: rem-calc($values, $base-value: $rem-base);
+  $remValues: rem-calc($values, $base-value);
 
   $max: length($remValues);
 
